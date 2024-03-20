@@ -1,1 +1,25 @@
 SpringBoot REST Project with version 3.2.0 and Java 17.
+
+
+
+//TODO Swagger
+//TODO Exception/Error Handling
+//TODO Caching
+//TODO Actuator
+//TODO Database Handling / DAO Layer
+//TODO Transaction Management
+//TODO add the authentication details to the response header
+//TODO configure swagger-ui.html, Advance Documentation
+//TODO logger/logging, Distributed log, Database logging, request/response logging
+//TODO Visualisation of logs grafana etc. 
+//TODO Docker support
+//TODO Kubernetes, Cloud
+//TODO Design Patterns
+//TODO Maven Management, Common Lib handling
+//TODO MicroServices and It's Design Patterns
+//TODO MicroService Common Services or Echo System - Eureka, Config, API Gateway,Security.
+//TODO Git Management
+//TODO Deployment strategies for PROD (Git Branching for QA, STAG, DEFECTS, zero downtime etc)
+
+Refrences:
+https://spring.academy/guides/spring-request-response-logging
