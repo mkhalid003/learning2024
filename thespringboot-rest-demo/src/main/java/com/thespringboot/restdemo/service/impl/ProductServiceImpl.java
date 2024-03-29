@@ -1,4 +1,6 @@
 package com.thespringboot.restdemo.service.impl;
+import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -44,7 +46,17 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public List < Product > getAllProduct() {
-        return this.productRepository.findAll();
+    	
+    	Product product = new Product();
+    	product.setId(1);
+    	product.setName("watch");
+    	product.setPrice(BigDecimal.valueOf(1000L));
+    	product.setDescription("Wrist watch");
+    	List <Product> list = new ArrayList<>();
+    	list.add(product);
+    	return list;
+    	
+        //return this.productRepository.findAll();
     }
 
     @Override
